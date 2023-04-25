@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Welcome to my awesome registration system</h1>
+        <nav>
+            <a href="index.html">Login</a>
+            <a href="register.html">Register</a>
+        </nav>
+    </header>
+    <main>
+        <div id="form-register">
+            <div id="alertDiv"></div>
+            <h2>REGISTER</h2>
+            <form action="">
+                <div class="mb-1">
+                    <label for="" id="lb-email">Email:</label>
+                    <input type="email" name="email-input" id="email-input">
+                </div>
+                <div class="mb-1">
+                    <label for="" id="lb-pass">Password:</label>
+                    <input type="password" name="password-input" id="password-input">
+                </div>
+                <div class="mb-1">
+                    <label for="" id="lb-fName">Firt Name:</label>
+                    <input type="text" name="fName-input" id="fName-input">
+                </div>
+                <div class="mb-1">
+                    <label for="" id="lb-lName">Last Name:</label>
+                    <input type="text" name="lName-input" id="lName-input">
+                </div>
+                <div class="mb-1">
+                    <label for="" id="lb-age">Age:</label>
+                    <input type="number" name="age-input" id="age-input">
+                </div>
+                <div class="mb-1">
+                    <label for="" id="lb-address">Address:</label>
+                    <input type="text" name="address-input" id="address-input">
+                </div>
+                <div class="mb-1">
+                    <label for="" id="lb-number">Phone Number:</label>
+                    <input type="text" name="number-input" id="number-input">
+                </div>
+                <div class="mb-1">
+                    <label for="">PayMethod</label>
+                    <select name="payMethod" id="payMethod">
+                        <option value="" disabled selected>--Select an Method--</option>></option>
+                        <option value="paypal">Paypal</option>
+                        <option value="creditCard">Credit Card</option>
+                        <option value="debitCard">Debit Card</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+                <div class="mb-1">
+                    <label for="" id="lb-color">Color:</label>
+                    <input type="text" name="color-input" id="color-input">
+                </div>
+                <button type="button" class="btn" id="btn-register" onclick="register()">Register</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+
+    <script src="JS/js.js"></script>
+    <script src="JS/jquery-3.6.4.min.js"></script>
+</body>
+
+</html>
