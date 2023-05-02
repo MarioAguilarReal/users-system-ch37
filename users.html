@@ -11,17 +11,36 @@
 
 <body>
 
-    <head>
-
-    </head>
-    <main>
-
+    <header>
+        <h1>Welcome to my awesome registration system</h1>
+        <nav>
+            <a href="index.html">Login</a>
+            <a href="register.html">Register</a>
+        </nav>
+    </header>
+    <main class="container">
+        <h1>User in the system</h1>
+        <table class="table table-bordered ">
+            <thead>
+                <th>Email</th>
+                <th>Fisrt name</th>
+                <th>Last Name</th>
+                <th>Age</th>
+                <th>Address</th>
+                <th>Phone</th>
+                <th>Payment</th>
+            </thead>
+            <tbody id="tableUsers">
+                
+            </tbody>
+        </table>
     </main>
     <footer>
         
     </footer>
-
-    <script src="JS/js.js"></script>
+    <script src="JS/jquery-3.6.4.min.js"></script>
+    <script src="JS/user.js"></script>
+    <script src="JS/storeManager.js"></script>
 </body>
 
 </html>

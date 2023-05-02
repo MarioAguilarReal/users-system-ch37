@@ -1,0 +1,136 @@
+/*
+*everything
+*/
+
+
+/*
+*Body
+*/
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* 
+* Header Style ------------------------------------
+*/
+
+#header-container {
+    background-color: #F58220;
+    color: white;
+    height: auto;
+    display: flow-root;
+}
+
+#header-container div {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+#header-container a {
+    color: white;
+}
+
+#title-site {
+    padding: 0 0 0 0;
+    text-decoration: none;
+}
+
+#title-site:hover {
+    color: #0b76a6;
+}
+
+
+#menu-site ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+
+#menu-site ul li {
+    display: inline-block;
+    line-height: 100px;
+}
+
+#menu-site ul li a {
+    display: block;
+    padding: 0 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#menu-site ul li a:hover {
+    background: #0b76a6;
+}
+
+/*
+*Main content------------------------------
+*/
+#main-container {
+    padding-bottom: 20%;
+}
+
+/*
+* Footer----------------------------------
+*/
+#footer-container {
+    background-color: #0b76a6;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-end;
+}
+
+#footer-container p {
+    color: #ffffff;
+    font-weight: 500;
+}
+
+/*
+*FORMULARIO-------------------------------------
+*/
+#form-register {
+    background-color: #f8f8f8f8;
+    width: 80%;
+    border: solid 1px;
+    box-shadow: 2px 2px 25px #000000;
+    border-radius: 10px;
+    margin: 50px auto;
+    padding: 20px 90px;
+    /* margin-right: 20px;
+    margin-left: 20px; */
+}
+#form h2{
+    text-align: center;
+}
+
+.mb-1 {
+    display: flex;
+    margin: 15px;
+}
+
+label {
+    width: 100px;
+    text-align: right;
+    /* margin-right: 10px; */
+}
+
+input,
+select {
+    width: 80%;
+    /* border-radius: 5px; */
+    padding: 3px;
+    border-bottom: solid 2px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+
+}
