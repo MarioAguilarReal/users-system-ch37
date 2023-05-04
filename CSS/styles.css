@@ -100,9 +100,9 @@ body {
 #form-register {
     background-color: #f8f8f8f8;
     width: 80%;
-    border: solid 1px;
-    box-shadow: 2px 2px 25px #000000;
-    border-radius: 10px;
+    /* border: solid 1px; */
+    /* box-shadow: 2px 2px 25px #000000; */
+    /* border-radius: 10px; */
     margin: 50px auto;
     padding: 20px 90px;
     /* margin-right: 20px;
