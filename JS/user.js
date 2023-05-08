@@ -3,7 +3,7 @@
 function displayUsers() {
     var users = readUser();
     let tableInfo = '';
-
+    console.log('Hola')
     users.forEach(user => {
         console.log(user);
         //console.log('Hola')
